@@ -1,0 +1,3 @@
+python scripts/stgcn_full/stgcn_realtime.py --ckpt checkpoints/best_stgcn.pt
+python scripts/3d_pool_realtime.py --model cnnpool --ckpt cnn_pool_best.pth --source 0
+python scripts/3d_pool_realtime.py --model cnn3d --ckpt cnn3d_best.pth --source 0                                    
